@@ -15,6 +15,10 @@
 mongo-seed-1  | 2024-05-16T13:12:24.299+0000    36377 document(s) imported successfully. 0 document(s) failed to import.
 ```
 
+## Backend
+
+O backend foi desenvolvido conforme o enunciado. No entanto foi escolhido que no `GET /contratos?entidade=EEEE` a entidade fosse o NIPC da empresa.
+
 ## Testes postman
 
 Podem ser encontrados no arquivo `ex1/Testes.postman_collection.json`
@@ -22,3 +26,5 @@ Podem ser encontrados no arquivo `ex1/Testes.postman_collection.json`
 ## Frontend
 
 No `http://localhost:16001` pode ser encontrada a tabela pedida com o **número de contratos** na base de dados, sendo isso a metainformação que foi escolhida.
+
+Na página individual de um contrato é possível ver todos os campos do contrato. É possível voltar à página principal clicando no logo.

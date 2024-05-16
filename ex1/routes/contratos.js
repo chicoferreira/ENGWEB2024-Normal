@@ -6,7 +6,7 @@ router.get('/', function (req, res) {
     var selectors = {};
 
     if (req.query.entidade)
-        selectors.entidade_comunicante = req.query.entidade;
+        selectors.NIPC_entidade_comunicante = req.query.entidade;
 
     if (req.query.tipo)
         selectors.tipoprocedimento = req.query.tipo;
