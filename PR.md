@@ -13,3 +13,7 @@
 ```bash
 mongo-seed-1  | 2024-05-16T13:12:24.299+0000    36377 document(s) imported successfully. 0 document(s) failed to import.
 ```
+
+## Testes postman
+
+Podem ser encontrados no arquivo `ex1/Testes.postman_collection.json`

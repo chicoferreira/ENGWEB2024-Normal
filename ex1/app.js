@@ -12,7 +12,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var plantasRouter = require('./routes/plantas');
-app.use('/plantas', plantasRouter);
+mongoose.connect('mongodb://127.0.0.1/contratos');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'Erro de conexão com o banco de dados:'));
+db.once('open', function () {
+    console.log('Conexão com o banco de dados realizada com sucesso!');
+});
+
+var contratosRouter = require('./routes/contratos');
+app.use('/contratos', contratosRouter);
 
 module.exports = app;
