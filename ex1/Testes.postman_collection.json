@@ -30,7 +30,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:16000/contratos?entidade=Freguesia de Candoso (São Martinho)",
+					"raw": "localhost:16000/contratos?entidade=505111667",
 					"host": [
 						"localhost"
 					],
@@ -41,7 +41,7 @@
 					"query": [
 						{
 							"key": "entidade",
-							"value": "Freguesia de Candoso (São Martinho)"
+							"value": "505111667"
 						}
 					]
 				}

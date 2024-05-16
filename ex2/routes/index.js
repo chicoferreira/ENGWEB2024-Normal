@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var axios = require('axios');
 
-const api_dados = 'http://localhost:16000';
+const api_dados = 'http://ew-teste-backend-1:16000';
 
 router.get('/', async (req, res) => {
   let contratosReq = await axios.get(`${api_dados}/contratos`);

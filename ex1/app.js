@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect('mongodb://127.0.0.1/contratos');
+mongoose.connect('mongodb://ew-teste-mongodb-1/contratos');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Erro de conexão com o banco de dados:'));
 db.once('open', function () {
