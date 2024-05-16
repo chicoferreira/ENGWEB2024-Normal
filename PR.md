@@ -27,7 +27,9 @@ Podem ser encontrados no arquivo `ex1/Testes.postman_collection.json`
 
 No `http://localhost:16001` pode ser encontrada a tabela pedida com o **número de contratos** na base de dados, sendo isso a metainformação que foi escolhida.
 
-Na página individual de um contrato é possível ver todos os campos do contrato. É possível voltar à página principal clicando no logo.
+Na página individual de um contrato é possível ver todos os campos do contrato. 
+
+É possível voltar à página principal clicando no logo. Isto é possível em todas as páginas do site.
 
 # Aplicação completa
 
