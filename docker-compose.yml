@@ -1,3 +1,4 @@
+name: engweb-teste
 services:
   backend:
     build:
